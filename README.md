@@ -6,14 +6,12 @@ It's a web application for managing hospitals rooms and determining the patient'
 It allows nurses to keep track of the patients and their diseases in real time and to have an overview over the patients and rooms, and better manage the rooms assignment across patients.
 
 # Live demo :
-https://nhs-app.herokuapp.com/
+ https://nhc-hospital-management.herokuapp.com/
+
 * username: admin
 * password: admin
 
 # Youtube video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Q9wTakyRWi4
-" target="_blank"><img src="http://img.youtube.com/vi/Q9wTakyRWi4/0.jpg" 
-alt="Youtube video" width="240" height="180" border="10" /></a>
 
 # Prerequisites
 - [x] Node.js 6.9.1 or later - install from https://nodejs.org/
@@ -36,29 +34,26 @@ git clone https://github.com/margiki/NHS-nodejs-webapp
 
 Data about patients and rooms is available here. The page is split into three tables. 
 
-![Dashboard](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/dashboard.jpg)
+![Dashboard]
 
-![Dashboard](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/dasboard_2.jpg)
 
 To clear the red warning sign you need to go on the patient’s personal page. To do that, you have to double click on his name. By clicking on the ‘Update button’ on the bottom of the page, the patient’s diagnosis in updated for the next 24 hours (consequently, the red warning sign disappears).
 
 ### Add patient page
 
 You can add a new patient in the system with his personal details and his diseases. The application automatically computes the score of the patient based on the entered diseases
-
-![Add patient page](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/add_new_patient.jpg)
+(https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/add_new_patient.jpg)
 
 ### Patient page
 
 Double click on a patient name on the dashboard to get here.
-![Patient page](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/patient_page.jpg)
+![Patient page]
 
 ### System settings
 
 The control center of the application. It allows users to manage the diseases & rooms of the Hospital and create new accounts
 
-![System Settings](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/system_settings.jpg)
-
+![System Settings]
 # App Modules and Code organisation
 ### Modules
 
@@ -92,16 +87,16 @@ Folder | Content | Responsability
 # Technologies
 
 ### Backend
-![Nodejs - ExpressJS](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/backend.jpg)
+![Nodejs - ExpressJS]
 
 ### Frontend
-![jQuery](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/frontend.jpg)
+![jQuery]
 
 ### Database
-![MongoDB - Mongoose](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/database.jpg)
+![MongoDB - Mongoose]
 
 ### Databse Schema
-![Database schema](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/database_design.jpg)
+![Database schema]
 
 **The available application is connected to a MongoDB database online.** If you want to change the database to another one, you need to go: NHS app folder -> server -> db -> mongoose.js
 
@@ -109,7 +104,7 @@ Inside the file, you need to change the database link from
 mongoose.connect("mongodb://admin:admin123@ds145220.mlab.com:45220/nhs-app"); to mongoose.connect("your-database-link");
 
 # REST Apis
-The backend and frontend communicate through REST Apis. On the frontend, we make Ajax requests using jQuery to the following routes: 
+The backend and frontend communicate through REST Apis. On the frontend, I make Ajax requests using jQuery to the following routes: 
 
 URI |	Returns
 ----|----
