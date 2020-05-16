@@ -42,7 +42,7 @@ To clear the red warning sign you need to go on the patient’s personal page. T
 ### Add patient page
 
 You can add a new patient in the system with his personal details and his diseases. The application automatically computes the score of the patient based on the entered diseases
-(https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/add_new_patient.jpg)
+(https://github.com/smitra1234/Hospital-management/blob/master/github_readme_photos/add_new_patient.jpg)
 
 ### Patient page
 
