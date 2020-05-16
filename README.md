@@ -1,4 +1,4 @@
-![App picture](https://github.com/margiki/NHS-nodejs-webapp/blob/master/github_readme_photos/main_picture.jpg)
+![App picture](https://github.com/smitra1234/Hospital-management/blob/master/github_readme_photos/main_picture.png)
 
 # Description :
 It's a web application for managing hospitals rooms and determining the patient's priority for isolation. The app provides a centralised hub for managing the patients and planning their distribution across hospital’s rooms. 
